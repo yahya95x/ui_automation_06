@@ -52,7 +52,7 @@ public class Project1 extends Base {
         WebElement fullName = driver.findElement(By.cssSelector("label[for='name']"));
         Assert.assertTrue(fullName.isDisplayed());
         Assert.assertEquals(fullName.getText(),"Full name *");
-        Assert.assertTrue(true,inputFullName.getAttribute("required"));
+        Assert.assertEquals(inputFullName.getAttribute("required"),"true");
         Assert.assertEquals(inputFullName.getAttribute("placeholder"), "Enter your full name");
     }
 
@@ -70,11 +70,13 @@ public class Project1 extends Base {
     public void ValidateTheGenderRadioButton(){
     WebElement gender = driver.findElement(By.cssSelector("div.field:nth-child(2) label.label"));
     Assert.assertEquals(gender.getText(), "Gender *");
-    Assert.assertTrue(true,gender.getAttribute("required"));
 
     List<WebElement> genderTypes = driver.findElements(By.cssSelector("div[class='field'] label.radio"));
     List<WebElement> genderInput = driver.findElements(By.cssSelector(".mr-1"));
-    String[] expectedText = {"Male","Female", "Prefer not to disclose"};
+
+        Assert.assertEquals(genderInput.get(0).getAttribute("required"),"true");
+
+        String[] expectedText = {"Male","Female", "Prefer not to disclose"};
         for (int i = 0; i < genderTypes.size(); i++) {
             Assert.assertEquals(genderTypes.get(i).getText(),expectedText[i]);
             Assert.assertTrue(genderTypes.get(i).isDisplayed());
@@ -107,7 +109,7 @@ public class Project1 extends Base {
         WebElement addressInput= driver.findElement(By.cssSelector("div[class='field']:nth-child(3) input"));
         WebElement addressLabel = driver.findElement(By.cssSelector("div[class='field']:nth-child(3) label"));
         Assert.assertTrue(addressInput.isDisplayed());
-        Assert.assertFalse(false, addressInput.getAttribute("required"));
+        Assert.assertEquals( addressInput.getAttribute("required"), null);
         Assert.assertEquals(addressLabel.getText(),"Address");
         Assert.assertEquals(addressInput.getAttribute("placeholder"), "Enter your address");
     }
@@ -126,7 +128,7 @@ public class Project1 extends Base {
       WebElement emailLabel = driver.findElement(By.cssSelector("div[class='field']:nth-child(4) label"));
 
       Assert.assertTrue(emailInput.isDisplayed());
-      Assert.assertTrue(true,emailInput.getAttribute("required"));
+      Assert.assertEquals(emailInput.getAttribute("required"),"true");
       Assert.assertEquals(emailLabel.getText(), "Email *");
       Assert.assertEquals(emailInput.getAttribute("placeholder"),"Enter your email");
     }
@@ -143,7 +145,7 @@ public class Project1 extends Base {
         WebElement phoneLabel = driver.findElement(By.cssSelector("div[class='field']:nth-child(5) label"));
 
         Assert.assertTrue(phoneInput.isDisplayed());
-        Assert.assertFalse(false,phoneInput.getAttribute("required"));
+        Assert.assertNotEquals(phoneInput.getAttribute("required"),"true");
         Assert.assertEquals(phoneLabel.getText(), "Phone");
         Assert.assertEquals(phoneInput.getAttribute("placeholder"),"Enter your phone number");
 
@@ -161,7 +163,7 @@ public class Project1 extends Base {
         WebElement messageLabel = driver.findElement(By.cssSelector("div[class='field']:nth-child(6) label"));
 
         Assert.assertTrue(messageLabel.isDisplayed());
-        Assert.assertTrue(true,messageInput.getAttribute("required"));
+        Assert.assertEquals(messageInput.getAttribute("required"),null);
         Assert.assertEquals(messageLabel.getText(),"Message");
         Assert.assertEquals(messageInput.getAttribute("placeholder"),"Type your message here...");
     }
@@ -180,7 +182,7 @@ public class Project1 extends Base {
     WebElement consentInput = driver.findElement(By.cssSelector("div[class='field']:nth-child(7) input"));
 
     Assert.assertEquals(consentLabel.getText(),"I give my consent to be contacted.");
-    Assert.assertTrue(true,consentInput.getAttribute("required"));
+    Assert.assertEquals(consentInput.getAttribute("required"),"true");
     Assert.assertTrue(consentInput.isEnabled());
     consentInput.click();
     Assert.assertTrue(consentInput.isSelected());
