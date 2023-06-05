@@ -48,7 +48,7 @@ public class _05_FacebookTest extends Base {
         Assert.assertTrue(logo.isDisplayed());
 
         Assert.assertTrue(heading.isDisplayed());
-        Assert.assertEquals(heading.getText(), "Connect with friends and the world around you on Facebook");
+        Assert.assertEquals(heading.getText(), "Connect with friends and the world around you on Facebook.");
 
         Assert.assertTrue(usernameInputBox.isDisplayed());
         Assert.assertTrue(usernameInputBox.isEnabled());

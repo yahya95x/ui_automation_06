@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
-public class _12_TGAlerts extends Base{
+public class _12_TGAlertsTest extends Base{
     @BeforeMethod
     public void setPage(){
         driver.get("https://techglobal-training.com/frontend/");
