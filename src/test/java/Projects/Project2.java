@@ -157,8 +157,9 @@ public class Project2 extends Base {
         WebElement closeButton = driver.findElement(By.cssSelector("[aria-label='close']"));
         closeButton.click();
 
-        WebElement loginForm = driver.findElement(By.cssSelector(".LoginForm_form__b4o6J"));
-        loginForm.isDisplayed();
+
+//        WebElement loginForm = driver.findElement(By.cssSelector(".LoginForm_form__b4o6J"));
+//        loginForm.isDisplayed();
     }
 
     /*

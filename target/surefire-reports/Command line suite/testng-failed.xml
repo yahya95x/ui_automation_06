@@ -11,65 +11,6 @@
           <include name="waitForBlueBox"/>
         </methods>
       </class> <!-- scripts._08_TGWaitTest -->
-      <class name="scripts._12_TGAlertsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="validateAlert"/>
-          <include name="warningAlerts"/>
-          <include name="setPage"/>
-          <include name="validateConfirmationAlert"/>
-        </methods>
-      </class> <!-- scripts._12_TGAlertsTest -->
-      <class name="scripts._14_MultipleWindowsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="validateTheAppleNavigation"/>
-          <include name="setPage"/>
-          <include name="validateTheMicrosoftNavigation"/>
-          <include name="validateTheLinkURLs"/>
-          <include name="validateTheTeslaNavigation"/>
-        </methods>
-      </class> <!-- scripts._14_MultipleWindowsTest -->
-      <class name="scripts._13_IFrameTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="setPage"/>
-          <include name="tearDown"/>
-          <include name="validateTheParagraph"/>
-          <include name="validateTheFormSubmission"/>
-        </methods>
-      </class> <!-- scripts._13_IFrameTest -->
-      <class name="scripts._11_TGDropdownsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="productDeliveryTest"/>
-          <include name="productColorTest"/>
-          <include name="productDropDownTest"/>
-          <include name="setPage"/>
-          <include name="validateResult"/>
-        </methods>
-      </class> <!-- scripts._11_TGDropdownsTest -->
-      <class name="scripts._10_TGRadioButtonTest">
-        <methods>
-          <include name="Radioinput"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="radioInput2"/>
-          <include name="setPage"/>
-        </methods>
-      </class> <!-- scripts._10_TGRadioButtonTest -->
-      <class name="scripts._09_TGCheckboxTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="checkBoxes2"/>
-          <include name="tearDown"/>
-          <include name="setPage"/>
-          <include name="checkBoxes"/>
-        </methods>
-      </class> <!-- scripts._09_TGCheckboxTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
