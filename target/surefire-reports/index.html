@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">40 methods, 1 failed,   39 passed</span>
+                    <span class="method-stats">45 methods, 2 failed,   43 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts._19_TGActionsTest" hash-for-method="mouseActions">mouseActions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts._08_TGWaitTest" hash-for-method="waitForBlueBox">waitForBlueBox</a> <!-- method navigator-link -->
@@ -151,6 +156,21 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts._19_TGActionsTest" hash-for-method="keyBoardActions">keyBoardActions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts._19_TGActionsTest" hash-for-method="keyBoardActions2">keyBoardActions2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts._19_TGActionsTest" hash-for-method="mouseActions2">mouseActions2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts._11_TGDropdownsTest" hash-for-method="productColorTest">productColorTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -182,6 +202,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts._12_TGAlertsTest" hash-for-method="validateConfirmationAlert">validateConfirmationAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts._19_TGActionsTest" hash-for-method="validateDragMe">validateDragMe</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -338,8 +363,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;YAHYA&apos;, ip: &apos;192.168.1.140&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yahya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 88e31f907b5300e1bd2fc656473c4486
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yahya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa917b078c33e042d364bc9817c4311
 *** Element info: {Using=css selector, value=button[class*=&apos;blue_box&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -352,6 +377,44 @@ Session ID: 88e31f907b5300e1bd2fc656473c4486
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at scripts._08_TGWaitTest.waitForBlueBox(_08_TGWaitTest.java:37)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">scripts._19_TGActionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mouseActions">
+                  </a> <!-- mouseActions -->
+                  <span class="method-name">mouseActions</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;YAHYA&apos;, ip: &apos;192.168.1.140&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yahya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e37aff1cc283b623292b470f662ccb81
+*** Element info: {Using=id, value=}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at scripts._19_TGActionsTest.mouseActions(_19_TGActionsTest.java:30)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
 ... Removed 41 stack frames
 </div> <!-- stack-trace -->
@@ -566,6 +629,35 @@ Session ID: 88e31f907b5300e1bd2fc656473c4486
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">scripts._12_TGAlertsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAlert">
+                  </a> <!-- validateAlert -->
+                  <span class="method-name">validateAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateConfirmationAlert">
+                  </a> <!-- validateConfirmationAlert -->
+                  <span class="method-name">validateConfirmationAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="warningAlerts">
+                  </a> <!-- warningAlerts -->
+                  <span class="method-name">warningAlerts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">scripts._14_MultipleWindowsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -610,35 +702,6 @@ Session ID: 88e31f907b5300e1bd2fc656473c4486
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">scripts._12_TGAlertsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateAlert">
-                  </a> <!-- validateAlert -->
-                  <span class="method-name">validateAlert</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateConfirmationAlert">
-                  </a> <!-- validateConfirmationAlert -->
-                  <span class="method-name">validateConfirmationAlert</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="warningAlerts">
-                  </a> <!-- warningAlerts -->
-                  <span class="method-name">warningAlerts</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">scripts._13_IFrameTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -658,6 +721,42 @@ Session ID: 88e31f907b5300e1bd2fc656473c4486
                   <span class="method-name">validateTheParagraph</span>
                   <em>
 (TC123: Validate the IFrame Page content paragraph)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts._19_TGActionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="keyBoardActions">
+                  </a> <!-- keyBoardActions -->
+                  <span class="method-name">keyBoardActions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="keyBoardActions2">
+                  </a> <!-- keyBoardActions2 -->
+                  <span class="method-name">keyBoardActions2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mouseActions2">
+                  </a> <!-- mouseActions2 -->
+                  <span class="method-name">mouseActions2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDragMe">
+                  </a> <!-- validateDragMe -->
+                  <span class="method-name">validateDragMe</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -781,6 +880,7 @@ Session ID: 88e31f907b5300e1bd2fc656473c4486
       &lt;class name=&quot;scripts._12_TGAlertsTest&quot;/&gt;
       &lt;class name=&quot;scripts._13_IFrameTest&quot;/&gt;
       &lt;class name=&quot;scripts._14_MultipleWindowsTest&quot;/&gt;
+      &lt;class name=&quot;scripts._19_TGActionsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
 &lt;/suite&gt; &lt;!-- Command line suite --&gt;
@@ -794,7 +894,7 @@ Session ID: 88e31f907b5300e1bd2fc656473c4486
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (14 classes)</span>
+                <span class="test-name">Command line test (15 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -820,172 +920,192 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(40);
+data.addRows(45);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'waitForBlueBox')
-data.setCell(0, 2, 'scripts._08_TGWaitTest')
-data.setCell(0, 3, 30160);
+data.setCell(0, 1, 'validateDragMe')
+data.setCell(0, 2, 'scripts._19_TGActionsTest')
+data.setCell(0, 3, 203499);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'productDeliveryTest')
-data.setCell(1, 2, 'scripts._11_TGDropdownsTest')
-data.setCell(1, 3, 30144);
+data.setCell(1, 1, 'waitForBlueBox')
+data.setCell(1, 2, 'scripts._08_TGWaitTest')
+data.setCell(1, 3, 30166);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateNavigation')
-data.setCell(2, 2, 'scripts._01_GoogleTest')
-data.setCell(2, 3, 11958);
+data.setCell(2, 1, 'productDeliveryTest')
+data.setCell(2, 2, 'scripts._11_TGDropdownsTest')
+data.setCell(2, 3, 30149);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateTheLinkURLs')
-data.setCell(3, 2, 'scripts._14_MultipleWindowsTest')
-data.setCell(3, 3, 11616);
+data.setCell(3, 1, 'validateNavigation')
+data.setCell(3, 2, 'scripts._01_GoogleTest')
+data.setCell(3, 3, 13827);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'RedBox')
-data.setCell(4, 2, 'scripts._08_TGWaitTest')
-data.setCell(4, 3, 10159);
+data.setCell(4, 1, 'validateTheLinkURLs')
+data.setCell(4, 2, 'scripts._14_MultipleWindowsTest')
+data.setCell(4, 3, 13613);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'validateTheMicrosoftNavigation')
 data.setCell(5, 2, 'scripts._14_MultipleWindowsTest')
-data.setCell(5, 3, 2283);
+data.setCell(5, 3, 12441);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateTheTeslaNavigation')
-data.setCell(6, 2, 'scripts._14_MultipleWindowsTest')
-data.setCell(6, 3, 2084);
+data.setCell(6, 1, 'RedBox')
+data.setCell(6, 2, 'scripts._08_TGWaitTest')
+data.setCell(6, 3, 10152);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validateTheAppleNavigation')
+data.setCell(7, 1, 'validateTheTeslaNavigation')
 data.setCell(7, 2, 'scripts._14_MultipleWindowsTest')
-data.setCell(7, 3, 1475);
+data.setCell(7, 3, 2736);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'validateFacebookInvalidLoginAttempt')
-data.setCell(8, 2, 'scripts._05_FacebookTest')
-data.setCell(8, 3, 1141);
+data.setCell(8, 1, 'validateTheAppleNavigation')
+data.setCell(8, 2, 'scripts._14_MultipleWindowsTest')
+data.setCell(8, 3, 2221);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'validateTheFormSubmission')
-data.setCell(9, 2, 'scripts._13_IFrameTest')
-data.setCell(9, 3, 793);
+data.setCell(9, 1, 'validateFacebookInvalidLoginAttempt')
+data.setCell(9, 2, 'scripts._05_FacebookTest')
+data.setCell(9, 3, 1091);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'validateWikiSearch')
-data.setCell(10, 2, 'scripts._06_WikiTest')
-data.setCell(10, 3, 761);
+data.setCell(10, 1, 'validateTheFormSubmission')
+data.setCell(10, 2, 'scripts._13_IFrameTest')
+data.setCell(10, 3, 873);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'validateResult')
-data.setCell(11, 2, 'scripts._11_TGDropdownsTest')
-data.setCell(11, 3, 487);
+data.setCell(11, 1, 'validateWikiSearch')
+data.setCell(11, 2, 'scripts._06_WikiTest')
+data.setCell(11, 3, 790);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'validateFacebookLoginForm')
-data.setCell(12, 2, 'scripts._05_FacebookTest')
-data.setCell(12, 3, 463);
+data.setCell(12, 1, 'mouseActions2')
+data.setCell(12, 2, 'scripts._19_TGActionsTest')
+data.setCell(12, 3, 698);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'validateTheParagraph')
-data.setCell(13, 2, 'scripts._13_IFrameTest')
-data.setCell(13, 3, 434);
+data.setCell(13, 1, 'validateFacebookLoginForm')
+data.setCell(13, 2, 'scripts._05_FacebookTest')
+data.setCell(13, 3, 610);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'Radioinput')
-data.setCell(14, 2, 'scripts._10_TGRadioButtonTest')
-data.setCell(14, 3, 404);
+data.setCell(14, 1, 'validateResult')
+data.setCell(14, 2, 'scripts._11_TGDropdownsTest')
+data.setCell(14, 3, 541);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'radioInput2')
-data.setCell(15, 2, 'scripts._10_TGRadioButtonTest')
-data.setCell(15, 3, 332);
+data.setCell(15, 1, 'keyBoardActions')
+data.setCell(15, 2, 'scripts._19_TGActionsTest')
+data.setCell(15, 3, 521);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'validateAlert')
-data.setCell(16, 2, 'scripts._12_TGAlertsTest')
-data.setCell(16, 3, 310);
+data.setCell(16, 1, 'validateTheParagraph')
+data.setCell(16, 2, 'scripts._13_IFrameTest')
+data.setCell(16, 3, 505);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'validateAllLinks')
-data.setCell(17, 2, 'scripts._03_TGLocatorsTest')
-data.setCell(17, 3, 304);
+data.setCell(17, 1, 'keyBoardActions2')
+data.setCell(17, 2, 'scripts._19_TGActionsTest')
+data.setCell(17, 3, 449);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'checkBoxes2')
-data.setCell(18, 2, 'scripts._09_TGCheckboxTest')
-data.setCell(18, 3, 292);
+data.setCell(18, 1, 'Radioinput')
+data.setCell(18, 2, 'scripts._10_TGRadioButtonTest')
+data.setCell(18, 3, 395);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'checkBoxes')
-data.setCell(19, 2, 'scripts._09_TGCheckboxTest')
-data.setCell(19, 3, 274);
+data.setCell(19, 1, 'radioInput2')
+data.setCell(19, 2, 'scripts._10_TGRadioButtonTest')
+data.setCell(19, 3, 394);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'validateOrangeParagraph')
-data.setCell(20, 2, 'scripts._03_TGLocatorsTest')
-data.setCell(20, 3, 271);
+data.setCell(20, 1, 'validateAlert')
+data.setCell(20, 2, 'scripts._12_TGAlertsTest')
+data.setCell(20, 3, 376);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'validateConfirmationAlert')
-data.setCell(21, 2, 'scripts._12_TGAlertsTest')
-data.setCell(21, 3, 235);
+data.setCell(21, 1, 'checkBoxes2')
+data.setCell(21, 2, 'scripts._09_TGCheckboxTest')
+data.setCell(21, 3, 300);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'ValidateAllParagraph')
-data.setCell(22, 2, 'scripts._03_TGLocatorsTest')
-data.setCell(22, 3, 199);
+data.setCell(22, 1, 'checkBoxes')
+data.setCell(22, 2, 'scripts._09_TGCheckboxTest')
+data.setCell(22, 3, 291);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'ValidateAutomationTools')
-data.setCell(23, 2, 'scripts._04_TGLocatorsTest')
-data.setCell(23, 3, 198);
+data.setCell(23, 1, 'ValidateAllParagraph')
+data.setCell(23, 2, 'scripts._03_TGLocatorsTest')
+data.setCell(23, 3, 250);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'productColorTest')
-data.setCell(24, 2, 'scripts._11_TGDropdownsTest')
-data.setCell(24, 3, 179);
+data.setCell(24, 1, 'validateConfirmationAlert')
+data.setCell(24, 2, 'scripts._12_TGAlertsTest')
+data.setCell(24, 3, 236);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'validateRedAppleLink')
+data.setCell(25, 1, 'validateAllLinks')
 data.setCell(25, 2, 'scripts._03_TGLocatorsTest')
-data.setCell(25, 3, 158);
+data.setCell(25, 3, 232);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'validateLanguages')
-data.setCell(26, 2, 'scripts._04_TGLocatorsTest')
-data.setCell(26, 3, 144);
+data.setCell(26, 1, 'productColorTest')
+data.setCell(26, 2, 'scripts._11_TGDropdownsTest')
+data.setCell(26, 3, 204);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'validateSearchButton')
-data.setCell(27, 2, 'scripts._01_GoogleTest')
-data.setCell(27, 3, 143);
+data.setCell(27, 1, 'warningAlerts')
+data.setCell(27, 2, 'scripts._12_TGAlertsTest')
+data.setCell(27, 3, 170);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'validateDynamicElementBox')
-data.setCell(28, 2, 'scripts._07_TGDynamicElementsTest')
-data.setCell(28, 3, 141);
+data.setCell(28, 1, 'validateOrangeParagraph')
+data.setCell(28, 2, 'scripts._03_TGLocatorsTest')
+data.setCell(28, 3, 169);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'productDropDownTest')
-data.setCell(29, 2, 'scripts._11_TGDropdownsTest')
-data.setCell(29, 3, 120);
+data.setCell(29, 1, 'ValidateAutomationTools')
+data.setCell(29, 2, 'scripts._04_TGLocatorsTest')
+data.setCell(29, 3, 167);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'warningAlerts')
-data.setCell(30, 2, 'scripts._12_TGAlertsTest')
-data.setCell(30, 3, 108);
+data.setCell(30, 1, 'validateLanguages')
+data.setCell(30, 2, 'scripts._04_TGLocatorsTest')
+data.setCell(30, 3, 142);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'validateListHeaders')
-data.setCell(31, 2, 'scripts._04_TGLocatorsTest')
-data.setCell(31, 3, 100);
+data.setCell(31, 1, 'validateSearchButton')
+data.setCell(31, 2, 'scripts._01_GoogleTest')
+data.setCell(31, 3, 139);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'validateGrapesParagraph')
-data.setCell(32, 2, 'scripts._03_TGLocatorsTest')
-data.setCell(32, 3, 89);
+data.setCell(32, 1, 'productDropDownTest')
+data.setCell(32, 2, 'scripts._11_TGDropdownsTest')
+data.setCell(32, 3, 112);
 data.setCell(33, 0, 33)
-data.setCell(33, 1, 'validateTheHeader')
+data.setCell(33, 1, 'validateListHeaders')
 data.setCell(33, 2, 'scripts._04_TGLocatorsTest')
-data.setCell(33, 3, 80);
+data.setCell(33, 3, 107);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'validateDynamicElementBox1')
+data.setCell(34, 1, 'validateDynamicElementBox')
 data.setCell(34, 2, 'scripts._07_TGDynamicElementsTest')
-data.setCell(34, 3, 79);
+data.setCell(34, 3, 105);
 data.setCell(35, 0, 35)
-data.setCell(35, 1, 'validateDynamicElementBox2')
-data.setCell(35, 2, 'scripts._07_TGDynamicElementsTest')
-data.setCell(35, 3, 75);
+data.setCell(35, 1, 'validateRedAppleLink')
+data.setCell(35, 2, 'scripts._03_TGLocatorsTest')
+data.setCell(35, 3, 100);
 data.setCell(36, 0, 36)
-data.setCell(36, 1, 'validateKiwiParagraph')
+data.setCell(36, 1, 'validateGrapesParagraph')
 data.setCell(36, 2, 'scripts._03_TGLocatorsTest')
-data.setCell(36, 3, 73);
+data.setCell(36, 3, 80);
 data.setCell(37, 0, 37)
-data.setCell(37, 1, 'ValidateSearchBar')
-data.setCell(37, 2, 'scripts._01_GoogleTest')
-data.setCell(37, 3, 55);
+data.setCell(37, 1, 'validateKiwiParagraph')
+data.setCell(37, 2, 'scripts._03_TGLocatorsTest')
+data.setCell(37, 3, 80);
 data.setCell(38, 0, 38)
-data.setCell(38, 1, 'validateTitleAndURL')
-data.setCell(38, 2, 'scripts._01_GoogleTest')
-data.setCell(38, 3, 26);
+data.setCell(38, 1, 'validateDynamicElementBox1')
+data.setCell(38, 2, 'scripts._07_TGDynamicElementsTest')
+data.setCell(38, 3, 73);
 data.setCell(39, 0, 39)
-data.setCell(39, 1, 'validateTitleAndURL')
-data.setCell(39, 2, 'scripts._02_AppleTest')
-data.setCell(39, 3, 17);
+data.setCell(39, 1, 'validateTheHeader')
+data.setCell(39, 2, 'scripts._04_TGLocatorsTest')
+data.setCell(39, 3, 69);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'ValidateSearchBar')
+data.setCell(40, 2, 'scripts._01_GoogleTest')
+data.setCell(40, 3, 63);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'validateDynamicElementBox2')
+data.setCell(41, 2, 'scripts._07_TGDynamicElementsTest')
+data.setCell(41, 3, 60);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'validateTitleAndURL')
+data.setCell(42, 2, 'scripts._01_GoogleTest')
+data.setCell(42, 3, 35);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'mouseActions')
+data.setCell(43, 2, 'scripts._19_TGActionsTest')
+data.setCell(43, 3, 33);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'validateTitleAndURL')
+data.setCell(44, 2, 'scripts._02_AppleTest')
+data.setCell(44, 3, 15);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -1018,660 +1138,745 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateNavigation</span>
-                <span class="method-start">5785 ms</span>
+                <span class="method-start">6428 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17745 ms</span>
+                <span class="method-start">20258 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">23609 ms</span>
+                <span class="method-start">27089 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateSearchButton</span>
-                <span class="method-start">26175 ms</span>
+                <span class="method-start">33135 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26318 ms</span>
+                <span class="method-start">33274 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">32077 ms</span>
+                <span class="method-start">39063 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTitleAndURL</span>
-                <span class="method-start">34694 ms</span>
+                <span class="method-start">42492 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34721 ms</span>
+                <span class="method-start">42527 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">40505 ms</span>
+                <span class="method-start">48292 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidateSearchBar</span>
-                <span class="method-start">42709 ms</span>
+                <span class="method-start">50750 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42764 ms</span>
+                <span class="method-start">50813 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._02_AppleTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">48525 ms</span>
+                <span class="method-start">56586 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTitleAndURL</span>
-                <span class="method-start">52127 ms</span>
+                <span class="method-start">59567 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52144 ms</span>
+                <span class="method-start">59582 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._03_TGLocatorsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">55983 ms</span>
+                <span class="method-start">63358 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">57438 ms</span>
+                <span class="method-start">64808 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidateAllParagraph</span>
-                <span class="method-start">58372 ms</span>
+                <span class="method-start">65800 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">58571 ms</span>
+                <span class="method-start">66051 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">59294 ms</span>
+                <span class="method-start">66768 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">60712 ms</span>
+                <span class="method-start">68123 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateAllLinks</span>
-                <span class="method-start">61726 ms</span>
+                <span class="method-start">69128 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">62031 ms</span>
+                <span class="method-start">69361 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">62791 ms</span>
+                <span class="method-start">70086 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">64160 ms</span>
+                <span class="method-start">71414 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateGrapesParagraph</span>
-                <span class="method-start">65161 ms</span>
+                <span class="method-start">72384 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">65251 ms</span>
+                <span class="method-start">72465 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">66013 ms</span>
+                <span class="method-start">73184 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">67370 ms</span>
+                <span class="method-start">74729 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateKiwiParagraph</span>
-                <span class="method-start">68374 ms</span>
+                <span class="method-start">75707 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">68448 ms</span>
+                <span class="method-start">75788 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">69197 ms</span>
+                <span class="method-start">76504 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">70663 ms</span>
+                <span class="method-start">78039 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateOrangeParagraph</span>
-                <span class="method-start">71664 ms</span>
+                <span class="method-start">81267 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">71935 ms</span>
+                <span class="method-start">81436 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">72715 ms</span>
+                <span class="method-start">82411 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">74075 ms</span>
+                <span class="method-start">83833 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateRedAppleLink</span>
-                <span class="method-start">75085 ms</span>
+                <span class="method-start">86862 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">75244 ms</span>
+                <span class="method-start">86962 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._04_TGLocatorsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75977 ms</span>
+                <span class="method-start">87680 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">77305 ms</span>
+                <span class="method-start">89015 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidateAutomationTools</span>
-                <span class="method-start">78519 ms</span>
+                <span class="method-start">90233 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">78717 ms</span>
+                <span class="method-start">90401 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">79481 ms</span>
+                <span class="method-start">91111 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">80821 ms</span>
+                <span class="method-start">92559 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateLanguages</span>
-                <span class="method-start">81944 ms</span>
+                <span class="method-start">93782 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">82088 ms</span>
+                <span class="method-start">93925 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">82816 ms</span>
+                <span class="method-start">94635 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">84186 ms</span>
+                <span class="method-start">95963 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateListHeaders</span>
-                <span class="method-start">85338 ms</span>
+                <span class="method-start">97111 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">85438 ms</span>
+                <span class="method-start">97218 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">86241 ms</span>
+                <span class="method-start">97977 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">87583 ms</span>
+                <span class="method-start">99378 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTheHeader</span>
-                <span class="method-start">88693 ms</span>
+                <span class="method-start">100635 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">88773 ms</span>
+                <span class="method-start">100705 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._05_FacebookTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">89522 ms</span>
+                <span class="method-start">101449 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">90915 ms</span>
+                <span class="method-start">102778 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateFacebookInvalidLoginAttempt</span>
-                <span class="method-start">91893 ms</span>
+                <span class="method-start">103802 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">93034 ms</span>
+                <span class="method-start">104893 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">93814 ms</span>
+                <span class="method-start">105658 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">95157 ms</span>
+                <span class="method-start">107147 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateFacebookLoginForm</span>
-                <span class="method-start">96152 ms</span>
+                <span class="method-start">108068 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">96616 ms</span>
+                <span class="method-start">108679 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._06_WikiTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">97423 ms</span>
+                <span class="method-start">109435 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">98800 ms</span>
+                <span class="method-start">110775 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateWikiSearch</span>
-                <span class="method-start">99719 ms</span>
+                <span class="method-start">111640 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">100481 ms</span>
+                <span class="method-start">112430 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._07_TGDynamicElementsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">101446 ms</span>
+                <span class="method-start">113228 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">102870 ms</span>
+                <span class="method-start">114889 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateDynamicElementBox</span>
-                <span class="method-start">104081 ms</span>
+                <span class="method-start">116750 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">104223 ms</span>
+                <span class="method-start">116855 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">104970 ms</span>
+                <span class="method-start">117609 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">106326 ms</span>
+                <span class="method-start">118968 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateDynamicElementBox1</span>
-                <span class="method-start">107523 ms</span>
+                <span class="method-start">120442 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">107603 ms</span>
+                <span class="method-start">120516 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">108320 ms</span>
+                <span class="method-start">121228 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">109886 ms</span>
+                <span class="method-start">122836 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateDynamicElementBox2</span>
-                <span class="method-start">110982 ms</span>
+                <span class="method-start">124140 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">111057 ms</span>
+                <span class="method-start">124202 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._08_TGWaitTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">111805 ms</span>
+                <span class="method-start">124982 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">113130 ms</span>
+                <span class="method-start">126755 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RedBox</span>
-                <span class="method-start">114394 ms</span>
+                <span class="method-start">128857 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">124553 ms</span>
+                <span class="method-start">139009 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">125381 ms</span>
+                <span class="method-start">139776 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">126724 ms</span>
+                <span class="method-start">141645 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">waitForBlueBox</span>
-                <span class="method-start">127857 ms</span>
+                <span class="method-start">142829 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">158022 ms</span>
+                <span class="method-start">172999 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._09_TGCheckboxTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">158887 ms</span>
+                <span class="method-start">173830 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">160234 ms</span>
+                <span class="method-start">175258 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkBoxes</span>
-                <span class="method-start">161383 ms</span>
+                <span class="method-start">176408 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">161657 ms</span>
+                <span class="method-start">176699 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">162354 ms</span>
+                <span class="method-start">177437 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">163667 ms</span>
+                <span class="method-start">178767 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkBoxes2</span>
-                <span class="method-start">164804 ms</span>
+                <span class="method-start">179978 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">165096 ms</span>
+                <span class="method-start">180278 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._10_TGRadioButtonTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">165818 ms</span>
+                <span class="method-start">180981 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">167240 ms</span>
+                <span class="method-start">182404 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Radioinput</span>
-                <span class="method-start">168463 ms</span>
+                <span class="method-start">183571 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">168867 ms</span>
+                <span class="method-start">183966 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">169626 ms</span>
+                <span class="method-start">184712 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">170994 ms</span>
+                <span class="method-start">186117 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">radioInput2</span>
-                <span class="method-start">172193 ms</span>
+                <span class="method-start">187306 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">172525 ms</span>
+                <span class="method-start">187700 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._11_TGDropdownsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">173265 ms</span>
+                <span class="method-start">188406 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">174613 ms</span>
+                <span class="method-start">189841 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productColorTest</span>
-                <span class="method-start">175794 ms</span>
+                <span class="method-start">191075 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">175973 ms</span>
+                <span class="method-start">191279 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">176699 ms</span>
+                <span class="method-start">192004 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">178011 ms</span>
+                <span class="method-start">193478 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productDeliveryTest</span>
-                <span class="method-start">179171 ms</span>
+                <span class="method-start">194774 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">209315 ms</span>
+                <span class="method-start">224923 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">210098 ms</span>
+                <span class="method-start">225698 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">211675 ms</span>
+                <span class="method-start">227082 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productDropDownTest</span>
-                <span class="method-start">212821 ms</span>
+                <span class="method-start">228359 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">212941 ms</span>
+                <span class="method-start">228471 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">213686 ms</span>
+                <span class="method-start">229186 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">215011 ms</span>
+                <span class="method-start">230513 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateResult</span>
-                <span class="method-start">216270 ms</span>
+                <span class="method-start">231754 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">216757 ms</span>
+                <span class="method-start">232295 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._12_TGAlertsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">217515 ms</span>
+                <span class="method-start">233005 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">218859 ms</span>
+                <span class="method-start">234353 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateAlert</span>
-                <span class="method-start">219964 ms</span>
+                <span class="method-start">235650 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">220276 ms</span>
+                <span class="method-start">236027 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">221027 ms</span>
+                <span class="method-start">236851 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">222387 ms</span>
+                <span class="method-start">238256 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateConfirmationAlert</span>
-                <span class="method-start">223555 ms</span>
+                <span class="method-start">239486 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">223790 ms</span>
+                <span class="method-start">239722 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">224511 ms</span>
+                <span class="method-start">240472 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">225859 ms</span>
+                <span class="method-start">241968 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">warningAlerts</span>
-                <span class="method-start">226932 ms</span>
+                <span class="method-start">243300 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">227041 ms</span>
+                <span class="method-start">243470 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._13_IFrameTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">227782 ms</span>
+                <span class="method-start">244271 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">229124 ms</span>
+                <span class="method-start">245647 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTheParagraph</span>
-                <span class="method-start">230481 ms</span>
+                <span class="method-start">246815 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">230915 ms</span>
+                <span class="method-start">247320 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">231640 ms</span>
+                <span class="method-start">248060 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">233041 ms</span>
+                <span class="method-start">249511 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTheFormSubmission</span>
-                <span class="method-start">234123 ms</span>
+                <span class="method-start">250618 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">234917 ms</span>
+                <span class="method-start">251491 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts._14_MultipleWindowsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">235664 ms</span>
+                <span class="method-start">252232 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">237024 ms</span>
+                <span class="method-start">254688 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTheAppleNavigation</span>
-                <span class="method-start">238252 ms</span>
+                <span class="method-start">255991 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">239727 ms</span>
+                <span class="method-start">258212 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">240759 ms</span>
+                <span class="method-start">259117 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">242312 ms</span>
+                <span class="method-start">260630 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTheMicrosoftNavigation</span>
-                <span class="method-start">243570 ms</span>
+                <span class="method-start">261953 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">245853 ms</span>
+                <span class="method-start">274394 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">247274 ms</span>
+                <span class="method-start">275571 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">248716 ms</span>
+                <span class="method-start">276914 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTheTeslaNavigation</span>
-                <span class="method-start">250001 ms</span>
+                <span class="method-start">278167 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">252085 ms</span>
+                <span class="method-start">280904 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">253020 ms</span>
+                <span class="method-start">281760 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">254506 ms</span>
+                <span class="method-start">283475 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTheLinkURLs</span>
-                <span class="method-start">255701 ms</span>
+                <span class="method-start">284753 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">267317 ms</span>
+                <span class="method-start">298366 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts._19_TGActionsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">299142 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setPage</span>
+                <span class="method-start">300659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">keyBoardActions</span>
+                <span class="method-start">302139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">302660 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">303427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setPage</span>
+                <span class="method-start">304846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">keyBoardActions2</span>
+                <span class="method-start">306345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">306794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">307591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setPage</span>
+                <span class="method-start">309277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mouseActions</span>
+                <span class="method-start">310687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">310721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">311518 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setPage</span>
+                <span class="method-start">313222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mouseActions2</span>
+                <span class="method-start">314657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">315356 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">316157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setPage</span>
+                <span class="method-start">317763 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDragMe</span>
+                <span class="method-start">319185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">522684 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

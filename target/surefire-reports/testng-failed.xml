@@ -11,6 +11,14 @@
           <include name="waitForBlueBox"/>
         </methods>
       </class> <!-- scripts._08_TGWaitTest -->
+      <class name="scripts._19_TGActionsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="mouseActions"/>
+          <include name="setPage"/>
+        </methods>
+      </class> <!-- scripts._19_TGActionsTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

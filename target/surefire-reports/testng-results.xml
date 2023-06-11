@@ -1,121 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="40" passed="39">
+<testng-results skipped="0" failed="2" ignored="0" total="45" passed="43">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="268203" started-at="2023-06-05T19:50:00 CDT" finished-at="2023-06-05T19:54:28 CDT">
+  <suite name="Command line suite" duration-ms="523570" started-at="2023-06-10T13:34:03 CDT" finished-at="2023-06-10T13:42:47 CDT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="268203" started-at="2023-06-05T19:50:00 CDT" finished-at="2023-06-05T19:54:28 CDT">
+    <test name="Command line test" duration-ms="523570" started-at="2023-06-10T13:34:03 CDT" finished-at="2023-06-10T13:42:47 CDT">
       <class name="scripts._07_TGDynamicElementsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="setUp" is-config="true" duration-ms="1424" started-at="2023-06-05T19:51:41 CDT" finished-at="2023-06-05T19:51:42 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="setUp" is-config="true" duration-ms="1661" started-at="2023-06-10T13:35:57 CDT" finished-at="2023-06-10T13:35:58 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="setPage" is-config="true" duration-ms="1211" started-at="2023-06-05T19:51:42 CDT" finished-at="2023-06-05T19:51:44 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="setPage" is-config="true" duration-ms="1861" started-at="2023-06-10T13:35:58 CDT" finished-at="2023-06-10T13:36:00 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateDynamicElementBox()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="validateDynamicElementBox" duration-ms="141" started-at="2023-06-05T19:51:44 CDT" finished-at="2023-06-05T19:51:44 CDT">
+        <test-method status="PASS" signature="validateDynamicElementBox()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="validateDynamicElementBox" duration-ms="105" started-at="2023-06-10T13:36:00 CDT" finished-at="2023-06-10T13:36:00 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDynamicElementBox -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="tearDown" is-config="true" duration-ms="747" started-at="2023-06-05T19:51:44 CDT" finished-at="2023-06-05T19:51:45 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="tearDown" is-config="true" duration-ms="753" started-at="2023-06-10T13:36:00 CDT" finished-at="2023-06-10T13:36:01 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="setUp" is-config="true" duration-ms="1356" started-at="2023-06-05T19:51:45 CDT" finished-at="2023-06-05T19:51:46 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="setUp" is-config="true" duration-ms="1359" started-at="2023-06-10T13:36:01 CDT" finished-at="2023-06-10T13:36:02 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="setPage" is-config="true" duration-ms="1197" started-at="2023-06-05T19:51:46 CDT" finished-at="2023-06-05T19:51:47 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="setPage" is-config="true" duration-ms="1474" started-at="2023-06-10T13:36:02 CDT" finished-at="2023-06-10T13:36:04 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateDynamicElementBox1()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="validateDynamicElementBox1" duration-ms="79" started-at="2023-06-05T19:51:47 CDT" finished-at="2023-06-05T19:51:47 CDT">
+        <test-method status="PASS" signature="validateDynamicElementBox1()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="validateDynamicElementBox1" duration-ms="73" started-at="2023-06-10T13:36:04 CDT" finished-at="2023-06-10T13:36:04 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDynamicElementBox1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="tearDown" is-config="true" duration-ms="717" started-at="2023-06-05T19:51:47 CDT" finished-at="2023-06-05T19:51:48 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="tearDown" is-config="true" duration-ms="712" started-at="2023-06-10T13:36:04 CDT" finished-at="2023-06-10T13:36:05 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="setUp" is-config="true" duration-ms="1566" started-at="2023-06-05T19:51:48 CDT" finished-at="2023-06-05T19:51:49 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="setUp" is-config="true" duration-ms="1608" started-at="2023-06-10T13:36:05 CDT" finished-at="2023-06-10T13:36:06 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="setPage" is-config="true" duration-ms="1096" started-at="2023-06-05T19:51:49 CDT" finished-at="2023-06-05T19:51:51 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="setPage" is-config="true" duration-ms="1304" started-at="2023-06-10T13:36:06 CDT" finished-at="2023-06-10T13:36:07 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateDynamicElementBox2()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="validateDynamicElementBox2" duration-ms="75" started-at="2023-06-05T19:51:51 CDT" finished-at="2023-06-05T19:51:51 CDT">
+        <test-method status="PASS" signature="validateDynamicElementBox2()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="validateDynamicElementBox2" duration-ms="60" started-at="2023-06-10T13:36:07 CDT" finished-at="2023-06-10T13:36:08 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDynamicElementBox2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._07_TGDynamicElementsTest@7e0b0338]" name="tearDown" is-config="true" duration-ms="747" started-at="2023-06-05T19:51:51 CDT" finished-at="2023-06-05T19:51:51 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._07_TGDynamicElementsTest@1e127982]" name="tearDown" is-config="true" duration-ms="780" started-at="2023-06-10T13:36:08 CDT" finished-at="2023-06-10T13:36:08 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._07_TGDynamicElementsTest -->
-      <class name="scripts._13_IFrameTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._13_IFrameTest@31dc339b]" name="setUp" is-config="true" duration-ms="1342" started-at="2023-06-05T19:53:47 CDT" finished-at="2023-06-05T19:53:49 CDT">
+      <class name="scripts._19_TGActionsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="setUp" is-config="true" duration-ms="1517" started-at="2023-06-10T13:39:02 CDT" finished-at="2023-06-10T13:39:04 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._13_IFrameTest@31dc339b]" name="setPage" is-config="true" duration-ms="1357" started-at="2023-06-05T19:53:49 CDT" finished-at="2023-06-05T19:53:50 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="setPage" is-config="true" duration-ms="1480" started-at="2023-06-10T13:39:04 CDT" finished-at="2023-06-10T13:39:05 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateTheParagraph()[pri:1, instance:scripts._13_IFrameTest@31dc339b]" name="validateTheParagraph" duration-ms="434" started-at="2023-06-05T19:53:50 CDT" description="TC123: Validate the IFrame Page content paragraph" finished-at="2023-06-05T19:53:50 CDT">
+        <test-method status="PASS" signature="keyBoardActions()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="keyBoardActions" duration-ms="521" started-at="2023-06-10T13:39:05 CDT" finished-at="2023-06-10T13:39:06 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTheParagraph -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._13_IFrameTest@31dc339b]" name="tearDown" is-config="true" duration-ms="724" started-at="2023-06-05T19:53:50 CDT" finished-at="2023-06-05T19:53:51 CDT">
+        </test-method> <!-- keyBoardActions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="tearDown" is-config="true" duration-ms="767" started-at="2023-06-10T13:39:06 CDT" finished-at="2023-06-10T13:39:07 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._13_IFrameTest@31dc339b]" name="setUp" is-config="true" duration-ms="1399" started-at="2023-06-05T19:53:51 CDT" finished-at="2023-06-05T19:53:53 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="setUp" is-config="true" duration-ms="1419" started-at="2023-06-10T13:39:07 CDT" finished-at="2023-06-10T13:39:08 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._13_IFrameTest@31dc339b]" name="setPage" is-config="true" duration-ms="1082" started-at="2023-06-05T19:53:53 CDT" finished-at="2023-06-05T19:53:54 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="setPage" is-config="true" duration-ms="1499" started-at="2023-06-10T13:39:08 CDT" finished-at="2023-06-10T13:39:10 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateTheFormSubmission()[pri:2, instance:scripts._13_IFrameTest@31dc339b]" name="validateTheFormSubmission" duration-ms="793" started-at="2023-06-05T19:53:54 CDT" description="TC345 Validate the form submission" finished-at="2023-06-05T19:53:54 CDT">
+        <test-method status="PASS" signature="keyBoardActions2()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="keyBoardActions2" duration-ms="449" started-at="2023-06-10T13:39:10 CDT" finished-at="2023-06-10T13:39:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyBoardActions2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="tearDown" is-config="true" duration-ms="796" started-at="2023-06-10T13:39:10 CDT" finished-at="2023-06-10T13:39:11 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="setUp" is-config="true" duration-ms="1686" started-at="2023-06-10T13:39:11 CDT" finished-at="2023-06-10T13:39:13 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="setPage" is-config="true" duration-ms="1410" started-at="2023-06-10T13:39:13 CDT" finished-at="2023-06-10T13:39:14 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="FAIL" signature="mouseActions()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="mouseActions" duration-ms="33" started-at="2023-06-10T13:39:14 CDT" finished-at="2023-06-10T13:39:14 CDT">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YAHYA', ip: '192.168.1.140', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yahya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e37aff1cc283b623292b470f662ccb81
+*** Element info: {Using=id, value=}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YAHYA', ip: '192.168.1.140', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yahya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e37aff1cc283b623292b470f662ccb81
+*** Element info: {Using=id, value=}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at scripts._19_TGActionsTest.mouseActions(_19_TGActionsTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseActions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="tearDown" is-config="true" duration-ms="796" started-at="2023-06-10T13:39:14 CDT" finished-at="2023-06-10T13:39:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="setUp" is-config="true" duration-ms="1703" started-at="2023-06-10T13:39:15 CDT" finished-at="2023-06-10T13:39:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="setPage" is-config="true" duration-ms="1435" started-at="2023-06-10T13:39:17 CDT" finished-at="2023-06-10T13:39:18 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="mouseActions2()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="mouseActions2" duration-ms="698" started-at="2023-06-10T13:39:18 CDT" finished-at="2023-06-10T13:39:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseActions2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="tearDown" is-config="true" duration-ms="801" started-at="2023-06-10T13:39:19 CDT" finished-at="2023-06-10T13:39:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="setUp" is-config="true" duration-ms="1606" started-at="2023-06-10T13:39:20 CDT" finished-at="2023-06-10T13:39:21 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="setPage" is-config="true" duration-ms="1421" started-at="2023-06-10T13:39:21 CDT" finished-at="2023-06-10T13:39:23 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateDragMe()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="validateDragMe" duration-ms="203499" started-at="2023-06-10T13:39:23 CDT" finished-at="2023-06-10T13:42:46 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDragMe -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._19_TGActionsTest@21213b92]" name="tearDown" is-config="true" duration-ms="834" started-at="2023-06-10T13:42:46 CDT" finished-at="2023-06-10T13:42:47 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._19_TGActionsTest -->
+      <class name="scripts._13_IFrameTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._13_IFrameTest@31610302]" name="setUp" is-config="true" duration-ms="1376" started-at="2023-06-10T13:38:08 CDT" finished-at="2023-06-10T13:38:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._13_IFrameTest@31610302]" name="setPage" is-config="true" duration-ms="1168" started-at="2023-06-10T13:38:09 CDT" finished-at="2023-06-10T13:38:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateTheParagraph()[pri:1, instance:scripts._13_IFrameTest@31610302]" name="validateTheParagraph" duration-ms="505" started-at="2023-06-10T13:38:10 CDT" description="TC123: Validate the IFrame Page content paragraph" finished-at="2023-06-10T13:38:11 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheParagraph -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._13_IFrameTest@31610302]" name="tearDown" is-config="true" duration-ms="739" started-at="2023-06-10T13:38:11 CDT" finished-at="2023-06-10T13:38:11 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._13_IFrameTest@31610302]" name="setUp" is-config="true" duration-ms="1451" started-at="2023-06-10T13:38:11 CDT" finished-at="2023-06-10T13:38:13 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._13_IFrameTest@31610302]" name="setPage" is-config="true" duration-ms="1107" started-at="2023-06-10T13:38:13 CDT" finished-at="2023-06-10T13:38:14 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateTheFormSubmission()[pri:2, instance:scripts._13_IFrameTest@31610302]" name="validateTheFormSubmission" duration-ms="873" started-at="2023-06-10T13:38:14 CDT" description="TC345 Validate the form submission" finished-at="2023-06-10T13:38:15 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTheFormSubmission -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._13_IFrameTest@31dc339b]" name="tearDown" is-config="true" duration-ms="746" started-at="2023-06-05T19:53:54 CDT" finished-at="2023-06-05T19:53:55 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._13_IFrameTest@31610302]" name="tearDown" is-config="true" duration-ms="740" started-at="2023-06-10T13:38:15 CDT" finished-at="2023-06-10T13:38:16 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._13_IFrameTest -->
       <class name="scripts._08_TGWaitTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._08_TGWaitTest@617faa95]" name="setUp" is-config="true" duration-ms="1325" started-at="2023-06-05T19:51:51 CDT" finished-at="2023-06-05T19:51:53 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._08_TGWaitTest@60c6f5b]" name="setUp" is-config="true" duration-ms="1773" started-at="2023-06-10T13:36:08 CDT" finished-at="2023-06-10T13:36:10 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._08_TGWaitTest@617faa95]" name="setPage" is-config="true" duration-ms="1264" started-at="2023-06-05T19:51:53 CDT" finished-at="2023-06-05T19:51:54 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._08_TGWaitTest@60c6f5b]" name="setPage" is-config="true" duration-ms="2102" started-at="2023-06-10T13:36:10 CDT" finished-at="2023-06-10T13:36:12 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="RedBox()[pri:0, instance:scripts._08_TGWaitTest@617faa95]" name="RedBox" duration-ms="10159" started-at="2023-06-05T19:51:54 CDT" finished-at="2023-06-05T19:52:04 CDT">
+        <test-method status="PASS" signature="RedBox()[pri:0, instance:scripts._08_TGWaitTest@60c6f5b]" name="RedBox" duration-ms="10152" started-at="2023-06-10T13:36:12 CDT" finished-at="2023-06-10T13:36:22 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RedBox -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._08_TGWaitTest@617faa95]" name="tearDown" is-config="true" duration-ms="828" started-at="2023-06-05T19:52:04 CDT" finished-at="2023-06-05T19:52:05 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._08_TGWaitTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="767" started-at="2023-06-10T13:36:22 CDT" finished-at="2023-06-10T13:36:23 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._08_TGWaitTest@617faa95]" name="setUp" is-config="true" duration-ms="1343" started-at="2023-06-05T19:52:05 CDT" finished-at="2023-06-05T19:52:06 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._08_TGWaitTest@60c6f5b]" name="setUp" is-config="true" duration-ms="1869" started-at="2023-06-10T13:36:23 CDT" finished-at="2023-06-10T13:36:25 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._08_TGWaitTest@617faa95]" name="setPage" is-config="true" duration-ms="1133" started-at="2023-06-05T19:52:06 CDT" finished-at="2023-06-05T19:52:07 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._08_TGWaitTest@60c6f5b]" name="setPage" is-config="true" duration-ms="1184" started-at="2023-06-10T13:36:25 CDT" finished-at="2023-06-10T13:36:26 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="FAIL" signature="waitForBlueBox()[pri:0, instance:scripts._08_TGWaitTest@617faa95]" name="waitForBlueBox" duration-ms="30160" started-at="2023-06-05T19:52:07 CDT" finished-at="2023-06-05T19:52:38 CDT">
+        <test-method status="FAIL" signature="waitForBlueBox()[pri:0, instance:scripts._08_TGWaitTest@60c6f5b]" name="waitForBlueBox" duration-ms="30166" started-at="2023-06-10T13:36:26 CDT" finished-at="2023-06-10T13:36:56 CDT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"button[class*='blue_box']"}
@@ -124,8 +284,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'YAHYA', ip: '192.168.1.140', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yahya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 88e31f907b5300e1bd2fc656473c4486
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yahya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa917b078c33e042d364bc9817c4311
 *** Element info: {Using=css selector, value=button[class*='blue_box']}]]>
             </message>
             <full-stacktrace>
@@ -135,8 +295,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'YAHYA', ip: '192.168.1.140', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yahya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 88e31f907b5300e1bd2fc656473c4486
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yahya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa917b078c33e042d364bc9817c4311
 *** Element info: {Using=css selector, value=button[class*='blue_box']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -197,537 +357,537 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitForBlueBox -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._08_TGWaitTest@617faa95]" name="tearDown" is-config="true" duration-ms="864" started-at="2023-06-05T19:52:38 CDT" finished-at="2023-06-05T19:52:38 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._08_TGWaitTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="830" started-at="2023-06-10T13:36:56 CDT" finished-at="2023-06-10T13:36:57 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._08_TGWaitTest -->
       <class name="scripts._01_GoogleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@64bf3bbf]" name="setup" is-config="true" duration-ms="5784" started-at="2023-06-05T19:50:00 CDT" finished-at="2023-06-05T19:50:05 CDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@148080bb]" name="setup" is-config="true" duration-ms="6428" started-at="2023-06-10T13:34:03 CDT" finished-at="2023-06-10T13:34:10 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateNavigation()[pri:0, instance:scripts._01_GoogleTest@64bf3bbf]" name="validateNavigation" duration-ms="11958" started-at="2023-06-05T19:50:05 CDT" finished-at="2023-06-05T19:50:17 CDT">
+        <test-method status="PASS" signature="validateNavigation()[pri:0, instance:scripts._01_GoogleTest@148080bb]" name="validateNavigation" duration-ms="13827" started-at="2023-06-10T13:34:10 CDT" finished-at="2023-06-10T13:34:24 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@64bf3bbf]" name="tearDown" is-config="true" duration-ms="5861" started-at="2023-06-05T19:50:17 CDT" finished-at="2023-06-05T19:50:23 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@148080bb]" name="tearDown" is-config="true" duration-ms="6826" started-at="2023-06-10T13:34:24 CDT" finished-at="2023-06-10T13:34:30 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@64bf3bbf]" name="setup" is-config="true" duration-ms="2566" started-at="2023-06-05T19:50:23 CDT" finished-at="2023-06-05T19:50:26 CDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@148080bb]" name="setup" is-config="true" duration-ms="6046" started-at="2023-06-10T13:34:30 CDT" finished-at="2023-06-10T13:34:36 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateSearchButton()[pri:0, instance:scripts._01_GoogleTest@64bf3bbf]" name="validateSearchButton" duration-ms="143" started-at="2023-06-05T19:50:26 CDT" finished-at="2023-06-05T19:50:26 CDT">
+        <test-method status="PASS" signature="validateSearchButton()[pri:0, instance:scripts._01_GoogleTest@148080bb]" name="validateSearchButton" duration-ms="139" started-at="2023-06-10T13:34:36 CDT" finished-at="2023-06-10T13:34:37 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchButton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@64bf3bbf]" name="tearDown" is-config="true" duration-ms="5759" started-at="2023-06-05T19:50:26 CDT" finished-at="2023-06-05T19:50:32 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@148080bb]" name="tearDown" is-config="true" duration-ms="5788" started-at="2023-06-10T13:34:37 CDT" finished-at="2023-06-10T13:34:42 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@64bf3bbf]" name="setup" is-config="true" duration-ms="2617" started-at="2023-06-05T19:50:32 CDT" finished-at="2023-06-05T19:50:34 CDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@148080bb]" name="setup" is-config="true" duration-ms="3429" started-at="2023-06-10T13:34:42 CDT" finished-at="2023-06-10T13:34:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateTitleAndURL()[pri:1, instance:scripts._01_GoogleTest@64bf3bbf]" name="validateTitleAndURL" duration-ms="26" started-at="2023-06-05T19:50:34 CDT" finished-at="2023-06-05T19:50:34 CDT">
+        <test-method status="PASS" signature="validateTitleAndURL()[pri:1, instance:scripts._01_GoogleTest@148080bb]" name="validateTitleAndURL" duration-ms="35" started-at="2023-06-10T13:34:46 CDT" finished-at="2023-06-10T13:34:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitleAndURL -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@64bf3bbf]" name="tearDown" is-config="true" duration-ms="5784" started-at="2023-06-05T19:50:34 CDT" finished-at="2023-06-05T19:50:40 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@148080bb]" name="tearDown" is-config="true" duration-ms="5765" started-at="2023-06-10T13:34:46 CDT" finished-at="2023-06-10T13:34:52 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@64bf3bbf]" name="setup" is-config="true" duration-ms="2204" started-at="2023-06-05T19:50:40 CDT" finished-at="2023-06-05T19:50:42 CDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@148080bb]" name="setup" is-config="true" duration-ms="2458" started-at="2023-06-10T13:34:52 CDT" finished-at="2023-06-10T13:34:54 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ValidateSearchBar()[pri:2, instance:scripts._01_GoogleTest@64bf3bbf]" name="ValidateSearchBar" duration-ms="55" started-at="2023-06-05T19:50:42 CDT" finished-at="2023-06-05T19:50:42 CDT">
+        <test-method status="PASS" signature="ValidateSearchBar()[pri:2, instance:scripts._01_GoogleTest@148080bb]" name="ValidateSearchBar" duration-ms="63" started-at="2023-06-10T13:34:54 CDT" finished-at="2023-06-10T13:34:54 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearchBar -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@64bf3bbf]" name="tearDown" is-config="true" duration-ms="5760" started-at="2023-06-05T19:50:42 CDT" finished-at="2023-06-05T19:50:48 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@148080bb]" name="tearDown" is-config="true" duration-ms="5772" started-at="2023-06-10T13:34:54 CDT" finished-at="2023-06-10T13:35:00 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._01_GoogleTest -->
       <class name="scripts._06_WikiTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._06_WikiTest@6e1ec318]" name="setUp" is-config="true" duration-ms="1377" started-at="2023-06-05T19:51:37 CDT" finished-at="2023-06-05T19:51:38 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._06_WikiTest@617faa95]" name="setUp" is-config="true" duration-ms="1340" started-at="2023-06-10T13:35:53 CDT" finished-at="2023-06-10T13:35:54 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._06_WikiTest@6e1ec318]" name="setPage" is-config="true" duration-ms="919" started-at="2023-06-05T19:51:38 CDT" finished-at="2023-06-05T19:51:39 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._06_WikiTest@617faa95]" name="setPage" is-config="true" duration-ms="865" started-at="2023-06-10T13:35:54 CDT" finished-at="2023-06-10T13:35:55 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateWikiSearch()[pri:0, instance:scripts._06_WikiTest@6e1ec318]" name="validateWikiSearch" duration-ms="761" started-at="2023-06-05T19:51:39 CDT" finished-at="2023-06-05T19:51:40 CDT">
+        <test-method status="PASS" signature="validateWikiSearch()[pri:0, instance:scripts._06_WikiTest@617faa95]" name="validateWikiSearch" duration-ms="790" started-at="2023-06-10T13:35:55 CDT" finished-at="2023-06-10T13:35:56 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateWikiSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._06_WikiTest@6e1ec318]" name="tearDown" is-config="true" duration-ms="965" started-at="2023-06-05T19:51:40 CDT" finished-at="2023-06-05T19:51:41 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._06_WikiTest@617faa95]" name="tearDown" is-config="true" duration-ms="797" started-at="2023-06-10T13:35:56 CDT" finished-at="2023-06-10T13:35:57 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._06_WikiTest -->
       <class name="scripts._03_TGLocatorsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setUp" is-config="true" duration-ms="1455" started-at="2023-06-05T19:50:56 CDT" finished-at="2023-06-05T19:50:57 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="1450" started-at="2023-06-10T13:35:07 CDT" finished-at="2023-06-10T13:35:08 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setPage" is-config="true" duration-ms="934" started-at="2023-06-05T19:50:57 CDT" finished-at="2023-06-05T19:50:58 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setPage" is-config="true" duration-ms="992" started-at="2023-06-10T13:35:08 CDT" finished-at="2023-06-10T13:35:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="ValidateAllParagraph()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="ValidateAllParagraph" duration-ms="199" started-at="2023-06-05T19:50:58 CDT" finished-at="2023-06-05T19:50:58 CDT">
+        <test-method status="PASS" signature="ValidateAllParagraph()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="ValidateAllParagraph" duration-ms="250" started-at="2023-06-10T13:35:09 CDT" finished-at="2023-06-10T13:35:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateAllParagraph -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="tearDown" is-config="true" duration-ms="722" started-at="2023-06-05T19:50:58 CDT" finished-at="2023-06-05T19:50:59 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="717" started-at="2023-06-10T13:35:09 CDT" finished-at="2023-06-10T13:35:10 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setUp" is-config="true" duration-ms="1418" started-at="2023-06-05T19:50:59 CDT" finished-at="2023-06-05T19:51:00 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="1355" started-at="2023-06-10T13:35:10 CDT" finished-at="2023-06-10T13:35:11 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setPage" is-config="true" duration-ms="1014" started-at="2023-06-05T19:51:00 CDT" finished-at="2023-06-05T19:51:01 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setPage" is-config="true" duration-ms="1005" started-at="2023-06-10T13:35:11 CDT" finished-at="2023-06-10T13:35:12 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateAllLinks()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="validateAllLinks" duration-ms="304" started-at="2023-06-05T19:51:01 CDT" finished-at="2023-06-05T19:51:02 CDT">
+        <test-method status="PASS" signature="validateAllLinks()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="validateAllLinks" duration-ms="232" started-at="2023-06-10T13:35:12 CDT" finished-at="2023-06-10T13:35:13 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAllLinks -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="tearDown" is-config="true" duration-ms="759" started-at="2023-06-05T19:51:02 CDT" finished-at="2023-06-05T19:51:02 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="725" started-at="2023-06-10T13:35:13 CDT" finished-at="2023-06-10T13:35:13 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setUp" is-config="true" duration-ms="1369" started-at="2023-06-05T19:51:02 CDT" finished-at="2023-06-05T19:51:04 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="1328" started-at="2023-06-10T13:35:13 CDT" finished-at="2023-06-10T13:35:15 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setPage" is-config="true" duration-ms="1001" started-at="2023-06-05T19:51:04 CDT" finished-at="2023-06-05T19:51:05 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setPage" is-config="true" duration-ms="970" started-at="2023-06-10T13:35:15 CDT" finished-at="2023-06-10T13:35:16 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateGrapesParagraph()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="validateGrapesParagraph" duration-ms="89" started-at="2023-06-05T19:51:05 CDT" finished-at="2023-06-05T19:51:05 CDT">
+        <test-method status="PASS" signature="validateGrapesParagraph()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="validateGrapesParagraph" duration-ms="80" started-at="2023-06-10T13:35:16 CDT" finished-at="2023-06-10T13:35:16 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateGrapesParagraph -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="tearDown" is-config="true" duration-ms="761" started-at="2023-06-05T19:51:05 CDT" finished-at="2023-06-05T19:51:06 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="719" started-at="2023-06-10T13:35:16 CDT" finished-at="2023-06-10T13:35:17 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setUp" is-config="true" duration-ms="1357" started-at="2023-06-05T19:51:06 CDT" finished-at="2023-06-05T19:51:07 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="1545" started-at="2023-06-10T13:35:17 CDT" finished-at="2023-06-10T13:35:18 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setPage" is-config="true" duration-ms="1004" started-at="2023-06-05T19:51:07 CDT" finished-at="2023-06-05T19:51:08 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setPage" is-config="true" duration-ms="978" started-at="2023-06-10T13:35:18 CDT" finished-at="2023-06-10T13:35:19 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateKiwiParagraph()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="validateKiwiParagraph" duration-ms="73" started-at="2023-06-05T19:51:08 CDT" finished-at="2023-06-05T19:51:08 CDT">
+        <test-method status="PASS" signature="validateKiwiParagraph()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="validateKiwiParagraph" duration-ms="80" started-at="2023-06-10T13:35:19 CDT" finished-at="2023-06-10T13:35:19 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateKiwiParagraph -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="tearDown" is-config="true" duration-ms="747" started-at="2023-06-05T19:51:08 CDT" finished-at="2023-06-05T19:51:09 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="716" started-at="2023-06-10T13:35:19 CDT" finished-at="2023-06-10T13:35:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setUp" is-config="true" duration-ms="1466" started-at="2023-06-05T19:51:09 CDT" finished-at="2023-06-05T19:51:10 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="1535" started-at="2023-06-10T13:35:20 CDT" finished-at="2023-06-10T13:35:21 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setPage" is-config="true" duration-ms="1001" started-at="2023-06-05T19:51:10 CDT" finished-at="2023-06-05T19:51:11 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setPage" is-config="true" duration-ms="3228" started-at="2023-06-10T13:35:21 CDT" finished-at="2023-06-10T13:35:25 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateOrangeParagraph()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="validateOrangeParagraph" duration-ms="271" started-at="2023-06-05T19:51:11 CDT" finished-at="2023-06-05T19:51:11 CDT">
+        <test-method status="PASS" signature="validateOrangeParagraph()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="validateOrangeParagraph" duration-ms="169" started-at="2023-06-10T13:35:25 CDT" finished-at="2023-06-10T13:35:25 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateOrangeParagraph -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="tearDown" is-config="true" duration-ms="765" started-at="2023-06-05T19:51:11 CDT" finished-at="2023-06-05T19:51:12 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="975" started-at="2023-06-10T13:35:25 CDT" finished-at="2023-06-10T13:35:26 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setUp" is-config="true" duration-ms="1360" started-at="2023-06-05T19:51:12 CDT" finished-at="2023-06-05T19:51:14 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="1422" started-at="2023-06-10T13:35:26 CDT" finished-at="2023-06-10T13:35:27 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="setPage" is-config="true" duration-ms="1010" started-at="2023-06-05T19:51:14 CDT" finished-at="2023-06-05T19:51:15 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="setPage" is-config="true" duration-ms="3029" started-at="2023-06-10T13:35:27 CDT" finished-at="2023-06-10T13:35:30 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateRedAppleLink()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="validateRedAppleLink" duration-ms="158" started-at="2023-06-05T19:51:15 CDT" finished-at="2023-06-05T19:51:15 CDT">
+        <test-method status="PASS" signature="validateRedAppleLink()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="validateRedAppleLink" duration-ms="100" started-at="2023-06-10T13:35:30 CDT" finished-at="2023-06-10T13:35:30 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRedAppleLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@148080bb]" name="tearDown" is-config="true" duration-ms="733" started-at="2023-06-05T19:51:15 CDT" finished-at="2023-06-05T19:51:16 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_TGLocatorsTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="718" started-at="2023-06-10T13:35:30 CDT" finished-at="2023-06-10T13:35:31 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._03_TGLocatorsTest -->
       <class name="scripts._05_FacebookTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._05_FacebookTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="1393" started-at="2023-06-05T19:51:29 CDT" finished-at="2023-06-05T19:51:30 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._05_FacebookTest@7e0b0338]" name="setUp" is-config="true" duration-ms="1329" started-at="2023-06-10T13:35:45 CDT" finished-at="2023-06-10T13:35:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._05_FacebookTest@10bdf5e5]" name="setPage" is-config="true" duration-ms="978" started-at="2023-06-05T19:51:30 CDT" finished-at="2023-06-05T19:51:31 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._05_FacebookTest@7e0b0338]" name="setPage" is-config="true" duration-ms="1024" started-at="2023-06-10T13:35:46 CDT" finished-at="2023-06-10T13:35:47 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateFacebookInvalidLoginAttempt()[pri:0, instance:scripts._05_FacebookTest@10bdf5e5]" name="validateFacebookInvalidLoginAttempt" duration-ms="1141" started-at="2023-06-05T19:51:31 CDT" finished-at="2023-06-05T19:51:33 CDT">
+        <test-method status="PASS" signature="validateFacebookInvalidLoginAttempt()[pri:0, instance:scripts._05_FacebookTest@7e0b0338]" name="validateFacebookInvalidLoginAttempt" duration-ms="1091" started-at="2023-06-10T13:35:47 CDT" finished-at="2023-06-10T13:35:48 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFacebookInvalidLoginAttempt -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._05_FacebookTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="779" started-at="2023-06-05T19:51:33 CDT" finished-at="2023-06-05T19:51:33 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._05_FacebookTest@7e0b0338]" name="tearDown" is-config="true" duration-ms="764" started-at="2023-06-10T13:35:48 CDT" finished-at="2023-06-10T13:35:49 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._05_FacebookTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="1343" started-at="2023-06-05T19:51:33 CDT" finished-at="2023-06-05T19:51:35 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._05_FacebookTest@7e0b0338]" name="setUp" is-config="true" duration-ms="1489" started-at="2023-06-10T13:35:49 CDT" finished-at="2023-06-10T13:35:51 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._05_FacebookTest@10bdf5e5]" name="setPage" is-config="true" duration-ms="995" started-at="2023-06-05T19:51:35 CDT" finished-at="2023-06-05T19:51:36 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._05_FacebookTest@7e0b0338]" name="setPage" is-config="true" duration-ms="921" started-at="2023-06-10T13:35:51 CDT" finished-at="2023-06-10T13:35:51 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateFacebookLoginForm()[pri:0, instance:scripts._05_FacebookTest@10bdf5e5]" name="validateFacebookLoginForm" duration-ms="463" started-at="2023-06-05T19:51:36 CDT" finished-at="2023-06-05T19:51:36 CDT">
+        <test-method status="PASS" signature="validateFacebookLoginForm()[pri:0, instance:scripts._05_FacebookTest@7e0b0338]" name="validateFacebookLoginForm" duration-ms="610" started-at="2023-06-10T13:35:51 CDT" finished-at="2023-06-10T13:35:52 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFacebookLoginForm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._05_FacebookTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="806" started-at="2023-06-05T19:51:36 CDT" finished-at="2023-06-05T19:51:37 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._05_FacebookTest@7e0b0338]" name="tearDown" is-config="true" duration-ms="755" started-at="2023-06-10T13:35:52 CDT" finished-at="2023-06-10T13:35:53 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._05_FacebookTest -->
       <class name="scripts._11_TGDropdownsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="setUp" is-config="true" duration-ms="1348" started-at="2023-06-05T19:52:53 CDT" finished-at="2023-06-05T19:52:54 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="setUp" is-config="true" duration-ms="1434" started-at="2023-06-10T13:37:12 CDT" finished-at="2023-06-10T13:37:13 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="setPage" is-config="true" duration-ms="1181" started-at="2023-06-05T19:52:54 CDT" finished-at="2023-06-05T19:52:55 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="setPage" is-config="true" duration-ms="1234" started-at="2023-06-10T13:37:13 CDT" finished-at="2023-06-10T13:37:14 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="productColorTest()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="productColorTest" duration-ms="179" started-at="2023-06-05T19:52:55 CDT" finished-at="2023-06-05T19:52:56 CDT">
+        <test-method status="PASS" signature="productColorTest()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="productColorTest" duration-ms="204" started-at="2023-06-10T13:37:14 CDT" finished-at="2023-06-10T13:37:15 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productColorTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="tearDown" is-config="true" duration-ms="726" started-at="2023-06-05T19:52:56 CDT" finished-at="2023-06-05T19:52:56 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="tearDown" is-config="true" duration-ms="725" started-at="2023-06-10T13:37:15 CDT" finished-at="2023-06-10T13:37:15 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="setUp" is-config="true" duration-ms="1312" started-at="2023-06-05T19:52:56 CDT" finished-at="2023-06-05T19:52:58 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="setUp" is-config="true" duration-ms="1474" started-at="2023-06-10T13:37:15 CDT" finished-at="2023-06-10T13:37:17 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="setPage" is-config="true" duration-ms="1160" started-at="2023-06-05T19:52:58 CDT" finished-at="2023-06-05T19:52:59 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="setPage" is-config="true" duration-ms="1296" started-at="2023-06-10T13:37:17 CDT" finished-at="2023-06-10T13:37:18 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="productDeliveryTest()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="productDeliveryTest" duration-ms="30144" started-at="2023-06-05T19:52:59 CDT" finished-at="2023-06-05T19:53:29 CDT">
+        <test-method status="PASS" signature="productDeliveryTest()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="productDeliveryTest" duration-ms="30149" started-at="2023-06-10T13:37:18 CDT" finished-at="2023-06-10T13:37:48 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productDeliveryTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="tearDown" is-config="true" duration-ms="783" started-at="2023-06-05T19:53:29 CDT" finished-at="2023-06-05T19:53:30 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="tearDown" is-config="true" duration-ms="774" started-at="2023-06-10T13:37:48 CDT" finished-at="2023-06-10T13:37:49 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="setUp" is-config="true" duration-ms="1577" started-at="2023-06-05T19:53:30 CDT" finished-at="2023-06-05T19:53:31 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="setUp" is-config="true" duration-ms="1384" started-at="2023-06-10T13:37:49 CDT" finished-at="2023-06-10T13:37:50 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="setPage" is-config="true" duration-ms="1146" started-at="2023-06-05T19:53:31 CDT" finished-at="2023-06-05T19:53:32 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="setPage" is-config="true" duration-ms="1276" started-at="2023-06-10T13:37:50 CDT" finished-at="2023-06-10T13:37:52 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="productDropDownTest()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="productDropDownTest" duration-ms="120" started-at="2023-06-05T19:53:32 CDT" finished-at="2023-06-05T19:53:32 CDT">
+        <test-method status="PASS" signature="productDropDownTest()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="productDropDownTest" duration-ms="112" started-at="2023-06-10T13:37:52 CDT" finished-at="2023-06-10T13:37:52 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productDropDownTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="tearDown" is-config="true" duration-ms="744" started-at="2023-06-05T19:53:32 CDT" finished-at="2023-06-05T19:53:33 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="tearDown" is-config="true" duration-ms="715" started-at="2023-06-10T13:37:52 CDT" finished-at="2023-06-10T13:37:53 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="setUp" is-config="true" duration-ms="1324" started-at="2023-06-05T19:53:33 CDT" finished-at="2023-06-05T19:53:35 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="setUp" is-config="true" duration-ms="1327" started-at="2023-06-10T13:37:53 CDT" finished-at="2023-06-10T13:37:54 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="setPage" is-config="true" duration-ms="1259" started-at="2023-06-05T19:53:35 CDT" finished-at="2023-06-05T19:53:36 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="setPage" is-config="true" duration-ms="1241" started-at="2023-06-10T13:37:54 CDT" finished-at="2023-06-10T13:37:55 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateResult()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="validateResult" duration-ms="487" started-at="2023-06-05T19:53:36 CDT" finished-at="2023-06-05T19:53:36 CDT">
+        <test-method status="PASS" signature="validateResult()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="validateResult" duration-ms="541" started-at="2023-06-10T13:37:55 CDT" finished-at="2023-06-10T13:37:56 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownsTest@2038ae61]" name="tearDown" is-config="true" duration-ms="757" started-at="2023-06-05T19:53:36 CDT" finished-at="2023-06-05T19:53:37 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownsTest@31dc339b]" name="tearDown" is-config="true" duration-ms="710" started-at="2023-06-10T13:37:56 CDT" finished-at="2023-06-10T13:37:56 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._11_TGDropdownsTest -->
       <class name="scripts._10_TGRadioButtonTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._10_TGRadioButtonTest@60c6f5b]" name="setUp" is-config="true" duration-ms="1422" started-at="2023-06-05T19:52:45 CDT" finished-at="2023-06-05T19:52:47 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._10_TGRadioButtonTest@3c0f93f1]" name="setUp" is-config="true" duration-ms="1423" started-at="2023-06-10T13:37:04 CDT" finished-at="2023-06-10T13:37:06 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._10_TGRadioButtonTest@60c6f5b]" name="setPage" is-config="true" duration-ms="1223" started-at="2023-06-05T19:52:47 CDT" finished-at="2023-06-05T19:52:48 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._10_TGRadioButtonTest@3c0f93f1]" name="setPage" is-config="true" duration-ms="1167" started-at="2023-06-10T13:37:06 CDT" finished-at="2023-06-10T13:37:07 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="Radioinput()[pri:0, instance:scripts._10_TGRadioButtonTest@60c6f5b]" name="Radioinput" duration-ms="404" started-at="2023-06-05T19:52:48 CDT" finished-at="2023-06-05T19:52:48 CDT">
+        <test-method status="PASS" signature="Radioinput()[pri:0, instance:scripts._10_TGRadioButtonTest@3c0f93f1]" name="Radioinput" duration-ms="395" started-at="2023-06-10T13:37:07 CDT" finished-at="2023-06-10T13:37:07 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Radioinput -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._10_TGRadioButtonTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="759" started-at="2023-06-05T19:52:48 CDT" finished-at="2023-06-05T19:52:49 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._10_TGRadioButtonTest@3c0f93f1]" name="tearDown" is-config="true" duration-ms="746" started-at="2023-06-10T13:37:07 CDT" finished-at="2023-06-10T13:37:08 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._10_TGRadioButtonTest@60c6f5b]" name="setUp" is-config="true" duration-ms="1368" started-at="2023-06-05T19:52:49 CDT" finished-at="2023-06-05T19:52:51 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._10_TGRadioButtonTest@3c0f93f1]" name="setUp" is-config="true" duration-ms="1405" started-at="2023-06-10T13:37:08 CDT" finished-at="2023-06-10T13:37:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._10_TGRadioButtonTest@60c6f5b]" name="setPage" is-config="true" duration-ms="1199" started-at="2023-06-05T19:52:51 CDT" finished-at="2023-06-05T19:52:52 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._10_TGRadioButtonTest@3c0f93f1]" name="setPage" is-config="true" duration-ms="1189" started-at="2023-06-10T13:37:09 CDT" finished-at="2023-06-10T13:37:11 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="radioInput2()[pri:0, instance:scripts._10_TGRadioButtonTest@60c6f5b]" name="radioInput2" duration-ms="332" started-at="2023-06-05T19:52:52 CDT" finished-at="2023-06-05T19:52:52 CDT">
+        <test-method status="PASS" signature="radioInput2()[pri:0, instance:scripts._10_TGRadioButtonTest@3c0f93f1]" name="radioInput2" duration-ms="394" started-at="2023-06-10T13:37:11 CDT" finished-at="2023-06-10T13:37:11 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioInput2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._10_TGRadioButtonTest@60c6f5b]" name="tearDown" is-config="true" duration-ms="740" started-at="2023-06-05T19:52:52 CDT" finished-at="2023-06-05T19:52:53 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._10_TGRadioButtonTest@3c0f93f1]" name="tearDown" is-config="true" duration-ms="706" started-at="2023-06-10T13:37:11 CDT" finished-at="2023-06-10T13:37:12 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._10_TGRadioButtonTest -->
       <class name="scripts._12_TGAlertsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="setUp" is-config="true" duration-ms="1344" started-at="2023-06-05T19:53:37 CDT" finished-at="2023-06-05T19:53:38 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="setUp" is-config="true" duration-ms="1348" started-at="2023-06-10T13:37:56 CDT" finished-at="2023-06-10T13:37:58 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="setPage" is-config="true" duration-ms="1104" started-at="2023-06-05T19:53:38 CDT" finished-at="2023-06-05T19:53:40 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="setPage" is-config="true" duration-ms="1297" started-at="2023-06-10T13:37:58 CDT" finished-at="2023-06-10T13:37:59 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateAlert()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="validateAlert" duration-ms="310" started-at="2023-06-05T19:53:40 CDT" finished-at="2023-06-05T19:53:40 CDT">
+        <test-method status="PASS" signature="validateAlert()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="validateAlert" duration-ms="376" started-at="2023-06-10T13:37:59 CDT" finished-at="2023-06-10T13:37:59 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAlert -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="tearDown" is-config="true" duration-ms="750" started-at="2023-06-05T19:53:40 CDT" finished-at="2023-06-05T19:53:41 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="tearDown" is-config="true" duration-ms="823" started-at="2023-06-10T13:37:59 CDT" finished-at="2023-06-10T13:38:00 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="setUp" is-config="true" duration-ms="1360" started-at="2023-06-05T19:53:41 CDT" finished-at="2023-06-05T19:53:42 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="setUp" is-config="true" duration-ms="1405" started-at="2023-06-10T13:38:00 CDT" finished-at="2023-06-10T13:38:02 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="setPage" is-config="true" duration-ms="1168" started-at="2023-06-05T19:53:42 CDT" finished-at="2023-06-05T19:53:43 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="setPage" is-config="true" duration-ms="1230" started-at="2023-06-10T13:38:02 CDT" finished-at="2023-06-10T13:38:03 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateConfirmationAlert()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="validateConfirmationAlert" duration-ms="235" started-at="2023-06-05T19:53:43 CDT" finished-at="2023-06-05T19:53:43 CDT">
+        <test-method status="PASS" signature="validateConfirmationAlert()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="validateConfirmationAlert" duration-ms="236" started-at="2023-06-10T13:38:03 CDT" finished-at="2023-06-10T13:38:03 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateConfirmationAlert -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="tearDown" is-config="true" duration-ms="720" started-at="2023-06-05T19:53:43 CDT" finished-at="2023-06-05T19:53:44 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="tearDown" is-config="true" duration-ms="750" started-at="2023-06-10T13:38:03 CDT" finished-at="2023-06-10T13:38:04 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="setUp" is-config="true" duration-ms="1348" started-at="2023-06-05T19:53:44 CDT" finished-at="2023-06-05T19:53:45 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="setUp" is-config="true" duration-ms="1496" started-at="2023-06-10T13:38:04 CDT" finished-at="2023-06-10T13:38:05 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="setPage" is-config="true" duration-ms="1073" started-at="2023-06-05T19:53:45 CDT" finished-at="2023-06-05T19:53:46 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="setPage" is-config="true" duration-ms="1332" started-at="2023-06-10T13:38:05 CDT" finished-at="2023-06-10T13:38:07 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="warningAlerts()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="warningAlerts" duration-ms="108" started-at="2023-06-05T19:53:46 CDT" finished-at="2023-06-05T19:53:47 CDT">
+        <test-method status="PASS" signature="warningAlerts()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="warningAlerts" duration-ms="170" started-at="2023-06-10T13:38:07 CDT" finished-at="2023-06-10T13:38:07 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- warningAlerts -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._12_TGAlertsTest@3c0f93f1]" name="tearDown" is-config="true" duration-ms="741" started-at="2023-06-05T19:53:47 CDT" finished-at="2023-06-05T19:53:47 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._12_TGAlertsTest@544fe44c]" name="tearDown" is-config="true" duration-ms="800" started-at="2023-06-10T13:38:07 CDT" finished-at="2023-06-10T13:38:08 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._12_TGAlertsTest -->
       <class name="scripts._02_AppleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._02_AppleTest@55d56113]" name="setUp" is-config="true" duration-ms="3601" started-at="2023-06-05T19:50:48 CDT" finished-at="2023-06-05T19:50:52 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._02_AppleTest@dc24521]" name="setUp" is-config="true" duration-ms="2981" started-at="2023-06-10T13:35:00 CDT" finished-at="2023-06-10T13:35:03 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateTitleAndURL()[pri:0, instance:scripts._02_AppleTest@55d56113]" name="validateTitleAndURL" duration-ms="17" started-at="2023-06-05T19:50:52 CDT" finished-at="2023-06-05T19:50:52 CDT">
+        <test-method status="PASS" signature="validateTitleAndURL()[pri:0, instance:scripts._02_AppleTest@dc24521]" name="validateTitleAndURL" duration-ms="15" started-at="2023-06-10T13:35:03 CDT" finished-at="2023-06-10T13:35:03 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitleAndURL -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._02_AppleTest@55d56113]" name="tearDown" is-config="true" duration-ms="3838" started-at="2023-06-05T19:50:52 CDT" finished-at="2023-06-05T19:50:56 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._02_AppleTest@dc24521]" name="tearDown" is-config="true" duration-ms="3775" started-at="2023-06-10T13:35:03 CDT" finished-at="2023-06-10T13:35:07 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._02_AppleTest -->
       <class name="scripts._04_TGLocatorsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="setUp" is-config="true" duration-ms="1328" started-at="2023-06-05T19:51:16 CDT" finished-at="2023-06-05T19:51:17 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="setUp" is-config="true" duration-ms="1335" started-at="2023-06-10T13:35:31 CDT" finished-at="2023-06-10T13:35:32 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="setPage" is-config="true" duration-ms="1214" started-at="2023-06-05T19:51:17 CDT" finished-at="2023-06-05T19:51:18 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="setPage" is-config="true" duration-ms="1218" started-at="2023-06-10T13:35:32 CDT" finished-at="2023-06-10T13:35:34 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="ValidateAutomationTools()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="ValidateAutomationTools" duration-ms="198" started-at="2023-06-05T19:51:18 CDT" finished-at="2023-06-05T19:51:18 CDT">
+        <test-method status="PASS" signature="ValidateAutomationTools()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="ValidateAutomationTools" duration-ms="167" started-at="2023-06-10T13:35:34 CDT" finished-at="2023-06-10T13:35:34 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateAutomationTools -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="tearDown" is-config="true" duration-ms="764" started-at="2023-06-05T19:51:18 CDT" finished-at="2023-06-05T19:51:19 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="tearDown" is-config="true" duration-ms="710" started-at="2023-06-10T13:35:34 CDT" finished-at="2023-06-10T13:35:34 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="setUp" is-config="true" duration-ms="1340" started-at="2023-06-05T19:51:19 CDT" finished-at="2023-06-05T19:51:20 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="setUp" is-config="true" duration-ms="1448" started-at="2023-06-10T13:35:34 CDT" finished-at="2023-06-10T13:35:36 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="setPage" is-config="true" duration-ms="1123" started-at="2023-06-05T19:51:20 CDT" finished-at="2023-06-05T19:51:22 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="setPage" is-config="true" duration-ms="1223" started-at="2023-06-10T13:35:36 CDT" finished-at="2023-06-10T13:35:37 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateLanguages()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="validateLanguages" duration-ms="144" started-at="2023-06-05T19:51:22 CDT" finished-at="2023-06-05T19:51:22 CDT">
+        <test-method status="PASS" signature="validateLanguages()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="validateLanguages" duration-ms="142" started-at="2023-06-10T13:35:37 CDT" finished-at="2023-06-10T13:35:37 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLanguages -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="tearDown" is-config="true" duration-ms="728" started-at="2023-06-05T19:51:22 CDT" finished-at="2023-06-05T19:51:22 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="tearDown" is-config="true" duration-ms="710" started-at="2023-06-10T13:35:37 CDT" finished-at="2023-06-10T13:35:38 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="setUp" is-config="true" duration-ms="1369" started-at="2023-06-05T19:51:22 CDT" finished-at="2023-06-05T19:51:24 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="setUp" is-config="true" duration-ms="1328" started-at="2023-06-10T13:35:38 CDT" finished-at="2023-06-10T13:35:39 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="setPage" is-config="true" duration-ms="1152" started-at="2023-06-05T19:51:24 CDT" finished-at="2023-06-05T19:51:25 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="setPage" is-config="true" duration-ms="1148" started-at="2023-06-10T13:35:39 CDT" finished-at="2023-06-10T13:35:40 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateListHeaders()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="validateListHeaders" duration-ms="100" started-at="2023-06-05T19:51:25 CDT" finished-at="2023-06-05T19:51:25 CDT">
+        <test-method status="PASS" signature="validateListHeaders()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="validateListHeaders" duration-ms="107" started-at="2023-06-10T13:35:40 CDT" finished-at="2023-06-10T13:35:41 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateListHeaders -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="tearDown" is-config="true" duration-ms="802" started-at="2023-06-05T19:51:25 CDT" finished-at="2023-06-05T19:51:26 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="tearDown" is-config="true" duration-ms="758" started-at="2023-06-10T13:35:41 CDT" finished-at="2023-06-10T13:35:41 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="setUp" is-config="true" duration-ms="1342" started-at="2023-06-05T19:51:26 CDT" finished-at="2023-06-05T19:51:27 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="setUp" is-config="true" duration-ms="1401" started-at="2023-06-10T13:35:41 CDT" finished-at="2023-06-10T13:35:43 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="setPage" is-config="true" duration-ms="1110" started-at="2023-06-05T19:51:27 CDT" finished-at="2023-06-05T19:51:28 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="setPage" is-config="true" duration-ms="1257" started-at="2023-06-10T13:35:43 CDT" finished-at="2023-06-10T13:35:44 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateTheHeader()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="validateTheHeader" duration-ms="80" started-at="2023-06-05T19:51:28 CDT" finished-at="2023-06-05T19:51:28 CDT">
+        <test-method status="PASS" signature="validateTheHeader()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="validateTheHeader" duration-ms="69" started-at="2023-06-10T13:35:44 CDT" finished-at="2023-06-10T13:35:44 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTheHeader -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._04_TGLocatorsTest@dc24521]" name="tearDown" is-config="true" duration-ms="748" started-at="2023-06-05T19:51:28 CDT" finished-at="2023-06-05T19:51:29 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._04_TGLocatorsTest@6e1ec318]" name="tearDown" is-config="true" duration-ms="744" started-at="2023-06-10T13:35:44 CDT" finished-at="2023-06-10T13:35:45 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._04_TGLocatorsTest -->
       <class name="scripts._09_TGCheckboxTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._09_TGCheckboxTest@1e127982]" name="setUp" is-config="true" duration-ms="1347" started-at="2023-06-05T19:52:38 CDT" finished-at="2023-06-05T19:52:40 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._09_TGCheckboxTest@2038ae61]" name="setUp" is-config="true" duration-ms="1428" started-at="2023-06-10T13:36:57 CDT" finished-at="2023-06-10T13:36:59 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._09_TGCheckboxTest@1e127982]" name="setPage" is-config="true" duration-ms="1149" started-at="2023-06-05T19:52:40 CDT" finished-at="2023-06-05T19:52:41 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._09_TGCheckboxTest@2038ae61]" name="setPage" is-config="true" duration-ms="1150" started-at="2023-06-10T13:36:59 CDT" finished-at="2023-06-10T13:37:00 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="checkBoxes()[pri:0, instance:scripts._09_TGCheckboxTest@1e127982]" name="checkBoxes" duration-ms="274" started-at="2023-06-05T19:52:41 CDT" finished-at="2023-06-05T19:52:41 CDT">
+        <test-method status="PASS" signature="checkBoxes()[pri:0, instance:scripts._09_TGCheckboxTest@2038ae61]" name="checkBoxes" duration-ms="291" started-at="2023-06-10T13:37:00 CDT" finished-at="2023-06-10T13:37:00 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBoxes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._09_TGCheckboxTest@1e127982]" name="tearDown" is-config="true" duration-ms="697" started-at="2023-06-05T19:52:41 CDT" finished-at="2023-06-05T19:52:42 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._09_TGCheckboxTest@2038ae61]" name="tearDown" is-config="true" duration-ms="738" started-at="2023-06-10T13:37:00 CDT" finished-at="2023-06-10T13:37:01 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._09_TGCheckboxTest@1e127982]" name="setUp" is-config="true" duration-ms="1313" started-at="2023-06-05T19:52:42 CDT" finished-at="2023-06-05T19:52:43 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._09_TGCheckboxTest@2038ae61]" name="setUp" is-config="true" duration-ms="1330" started-at="2023-06-10T13:37:01 CDT" finished-at="2023-06-10T13:37:02 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._09_TGCheckboxTest@1e127982]" name="setPage" is-config="true" duration-ms="1137" started-at="2023-06-05T19:52:43 CDT" finished-at="2023-06-05T19:52:44 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._09_TGCheckboxTest@2038ae61]" name="setPage" is-config="true" duration-ms="1211" started-at="2023-06-10T13:37:02 CDT" finished-at="2023-06-10T13:37:03 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="checkBoxes2()[pri:0, instance:scripts._09_TGCheckboxTest@1e127982]" name="checkBoxes2" duration-ms="292" started-at="2023-06-05T19:52:44 CDT" finished-at="2023-06-05T19:52:45 CDT">
+        <test-method status="PASS" signature="checkBoxes2()[pri:0, instance:scripts._09_TGCheckboxTest@2038ae61]" name="checkBoxes2" duration-ms="300" started-at="2023-06-10T13:37:03 CDT" finished-at="2023-06-10T13:37:04 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBoxes2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._09_TGCheckboxTest@1e127982]" name="tearDown" is-config="true" duration-ms="721" started-at="2023-06-05T19:52:45 CDT" finished-at="2023-06-05T19:52:45 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._09_TGCheckboxTest@2038ae61]" name="tearDown" is-config="true" duration-ms="702" started-at="2023-06-10T13:37:04 CDT" finished-at="2023-06-10T13:37:04 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._09_TGCheckboxTest -->
       <class name="scripts._14_MultipleWindowsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="setUp" is-config="true" duration-ms="1360" started-at="2023-06-05T19:53:55 CDT" finished-at="2023-06-05T19:53:57 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="setUp" is-config="true" duration-ms="2456" started-at="2023-06-10T13:38:16 CDT" finished-at="2023-06-10T13:38:18 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="setPage" is-config="true" duration-ms="1227" started-at="2023-06-05T19:53:57 CDT" finished-at="2023-06-05T19:53:58 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="setPage" is-config="true" duration-ms="1303" started-at="2023-06-10T13:38:18 CDT" finished-at="2023-06-10T13:38:19 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateTheAppleNavigation()[pri:1, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="validateTheAppleNavigation" duration-ms="1475" started-at="2023-06-05T19:53:58 CDT" description="TC32 validate the Apple navigation" finished-at="2023-06-05T19:53:59 CDT">
+        <test-method status="PASS" signature="validateTheAppleNavigation()[pri:1, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="validateTheAppleNavigation" duration-ms="2221" started-at="2023-06-10T13:38:19 CDT" description="TC32 validate the Apple navigation" finished-at="2023-06-10T13:38:22 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTheAppleNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="tearDown" is-config="true" duration-ms="1032" started-at="2023-06-05T19:53:59 CDT" finished-at="2023-06-05T19:54:00 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="tearDown" is-config="true" duration-ms="905" started-at="2023-06-10T13:38:22 CDT" finished-at="2023-06-10T13:38:22 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="setUp" is-config="true" duration-ms="1552" started-at="2023-06-05T19:54:00 CDT" finished-at="2023-06-05T19:54:02 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="setUp" is-config="true" duration-ms="1511" started-at="2023-06-10T13:38:22 CDT" finished-at="2023-06-10T13:38:24 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="setPage" is-config="true" duration-ms="1258" started-at="2023-06-05T19:54:02 CDT" finished-at="2023-06-05T19:54:03 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="setPage" is-config="true" duration-ms="1323" started-at="2023-06-10T13:38:24 CDT" finished-at="2023-06-10T13:38:25 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateTheMicrosoftNavigation()[pri:2, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="validateTheMicrosoftNavigation" duration-ms="2283" started-at="2023-06-05T19:54:03 CDT" description="TC322 validate the Mircosoft navigation" finished-at="2023-06-05T19:54:05 CDT">
+        <test-method status="PASS" signature="validateTheMicrosoftNavigation()[pri:2, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="validateTheMicrosoftNavigation" duration-ms="12441" started-at="2023-06-10T13:38:25 CDT" description="TC322 validate the Mircosoft navigation" finished-at="2023-06-10T13:38:38 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTheMicrosoftNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="tearDown" is-config="true" duration-ms="1421" started-at="2023-06-05T19:54:05 CDT" finished-at="2023-06-05T19:54:07 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="tearDown" is-config="true" duration-ms="1177" started-at="2023-06-10T13:38:38 CDT" finished-at="2023-06-10T13:38:39 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="setUp" is-config="true" duration-ms="1442" started-at="2023-06-05T19:54:07 CDT" finished-at="2023-06-05T19:54:08 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="setUp" is-config="true" duration-ms="1343" started-at="2023-06-10T13:38:39 CDT" finished-at="2023-06-10T13:38:40 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="setPage" is-config="true" duration-ms="1285" started-at="2023-06-05T19:54:08 CDT" finished-at="2023-06-05T19:54:10 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="setPage" is-config="true" duration-ms="1253" started-at="2023-06-10T13:38:40 CDT" finished-at="2023-06-10T13:38:42 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateTheTeslaNavigation()[pri:3, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="validateTheTeslaNavigation" duration-ms="2084" started-at="2023-06-05T19:54:10 CDT" description="TC323 validate the Tesla navigation" finished-at="2023-06-05T19:54:12 CDT">
+        <test-method status="PASS" signature="validateTheTeslaNavigation()[pri:3, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="validateTheTeslaNavigation" duration-ms="2736" started-at="2023-06-10T13:38:42 CDT" description="TC323 validate the Tesla navigation" finished-at="2023-06-10T13:38:44 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTheTeslaNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="tearDown" is-config="true" duration-ms="934" started-at="2023-06-05T19:54:12 CDT" finished-at="2023-06-05T19:54:13 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="tearDown" is-config="true" duration-ms="856" started-at="2023-06-10T13:38:44 CDT" finished-at="2023-06-10T13:38:45 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="setUp" is-config="true" duration-ms="1485" started-at="2023-06-05T19:54:13 CDT" finished-at="2023-06-05T19:54:14 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="setUp" is-config="true" duration-ms="1715" started-at="2023-06-10T13:38:45 CDT" finished-at="2023-06-10T13:38:47 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="setPage" is-config="true" duration-ms="1195" started-at="2023-06-05T19:54:14 CDT" finished-at="2023-06-05T19:54:15 CDT">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="setPage" is-config="true" duration-ms="1278" started-at="2023-06-10T13:38:47 CDT" finished-at="2023-06-10T13:38:48 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateTheLinkURLs()[pri:4, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="validateTheLinkURLs" duration-ms="11616" started-at="2023-06-05T19:54:15 CDT" description="TC324 validate Link URL" finished-at="2023-06-05T19:54:27 CDT">
+        <test-method status="PASS" signature="validateTheLinkURLs()[pri:4, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="validateTheLinkURLs" duration-ms="13613" started-at="2023-06-10T13:38:48 CDT" description="TC324 validate Link URL" finished-at="2023-06-10T13:39:02 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTheLinkURLs -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._14_MultipleWindowsTest@544fe44c]" name="tearDown" is-config="true" duration-ms="829" started-at="2023-06-05T19:54:27 CDT" finished-at="2023-06-05T19:54:28 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._14_MultipleWindowsTest@71318ec4]" name="tearDown" is-config="true" duration-ms="776" started-at="2023-06-10T13:39:02 CDT" finished-at="2023-06-10T13:39:02 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

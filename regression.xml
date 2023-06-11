@@ -11,7 +11,8 @@
                     <include name="validateSearchButton"/>
                 </methods>
             </class>
-
+            <class name="Projects.Project1"/>
+            <class name="Projects.Project2"/>
             <class name="scripts._02_AppleTest">
                 <methods>
                     <include name="validateTitleAndURL"/>

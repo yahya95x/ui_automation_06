@@ -1,6 +1,7 @@
 package scripts;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
@@ -8,6 +9,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import javax.swing.*;
+import java.time.Duration;
+
+import static utils.Waiter.pause;
 
 public class _19_TGActionsTest extends Base{
 
@@ -86,5 +90,43 @@ public class _19_TGActionsTest extends Base{
 
         WebElement dragAndDropResult = driver.findElement(By.id("drag_and_drop_result"));
         Assert.assertEquals(dragAndDropResult.getText(),"An element dropped here!");
+
+//        actions.keyDown(Keys.SHIFT)
+//                .sendKeys(dropMe,"techglobal")
+//                .pause(Duration.ofSeconds(2))
+//                .keyUp(Keys.SHIFT)
+//                .sendKeys(dragAndDropResult,"techglobal");
+    }
+
+    /*
+    Go to https://techglobal-training.com/frontend/
+    Click on the "Actions" card
+    Go to the input box, and remove if there is an existing text inside
+    First, enter “h” to the input box in upper case using keyboard actions
+    Then complete the word by sending “ello” as a key
+    Validate value attribute of the input box is “Hello”
+     */
+    @Test
+    public void keyBoardActions(){
+        WebElement inputBox = driver.findElement(By.id("input_box"));
+        actions.keyDown(Keys.SHIFT)
+                .sendKeys(inputBox,"h")
+                .keyUp(Keys.SHIFT)
+                .sendKeys("ello")
+                .perform();
+        Assert.assertEquals(inputBox.getAttribute("value"),"Hello");
+    }
+
+    @Test
+    public void keyBoardActions2(){
+        WebElement inputBox = driver.findElement(By.id("input_box"));
+        actions.keyDown(Keys.SHIFT)
+                .sendKeys(inputBox,"techglobal")
+                .keyUp(Keys.SHIFT)
+                .keyDown(Keys.CONTROL).sendKeys("Acvv")
+                .keyUp(Keys.CONTROL)
+                .perform();
+        Assert.assertEquals(inputBox.getAttribute("value"),"TECHGLOBALTECHGLOBAL");
     }
 }
+
